@@ -30,3 +30,4 @@ Pour effectuer un autre test simple avec Burp Suite, nous avons choisi l’appli
 Comme recommandé, et à la fin de ces tests, notre AVD a été réinitialisé via Android Studio à l’aide de l’option Wipe Data, afin de restaurer un environnement propre pour d’éventuels tests ultérieurs : 
 
 ![9](9.png)
+![10](10.png)
