@@ -26,3 +26,7 @@ Finalement, pour vérifier que le certificat CA a été bien installé et le tra
 Pour effectuer un autre test simple avec Burp Suite, nous avons choisi l’application InsecureBankv2 (MASTG-APP-0010), qui est une application Android utilisée dans le cadre des tests de pénétration et de sécurité mobile. Nous avons intercepté la requête de connexion (login) et constaté que l’application envoie les paramètres d’authentification (username et password) en clair dans le corps de la requête. Aucun cookie ni token de sécurité n’est présent dans cette requête. Il est donc recommandé d’utiliser le protocole HTTPS afin d’éviter la transmission des identifiants en clair, comme observé dans ce cas, et c'est également important de limiter les tentatives de connexion et de sécuriser les cookies de session avec les attributs Secure, HttpOnly et SameSite afin d’améliorer la protection globale de l’application.
 
 ![8](8.png)
+
+Comme recommandé, et à la fin de ces tests, notre AVD a été réinitialisé via Android Studio à l’aide de l’option Wipe Data, afin de restaurer un environnement propre pour d’éventuels tests ultérieurs : 
+
+![9](9.png)
